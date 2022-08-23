@@ -15,6 +15,37 @@ header {
     z-index: 999;
     transition: 1s ease  ;
 }
+
+header.sticky{
+    background: rgb(41, 41, 40);
+    padding: 10px 100px;
+}
+header .brand{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+    margin-right: 150px;
+
+}
+
+header .navigation a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: .5s ease;
+}
+
+header .navigation a:hover{
+    color: rgb(0, 0, 0);
+}
 .bg{
     position: relative;
     width: 100%;
