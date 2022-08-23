@@ -52,7 +52,7 @@ header .navigation a:hover{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../images/lilya.jpg) no-repeat;
+    background: url(./images/lilya.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
